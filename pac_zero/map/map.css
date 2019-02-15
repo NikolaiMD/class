@@ -1,0 +1,32 @@
+#map{
+  width: 500px;
+  height: 50px;
+  border: 5px solid #666;
+}
+#map div{
+  width: 48px;
+  height: 48px;
+  border: 1px solid #777;
+  float: left;
+}
+#map .pacman{
+  background-image: url(pacman.png);
+}
+#map .pacman.explosion{
+  background-image: url(boom.gif);
+  background-size: cover;
+
+}
+#map .pacman.left{
+  transform: scaleX(-1);
+
+}
+#map .cherry{
+  background-image: url(cherry.png);
+}
+#map .bomb{
+  background-image: url(bomb.png);
+}
+#map .coin{
+  background-image: url(coin.png);
+}
